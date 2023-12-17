@@ -223,3 +223,17 @@ tar -czvf blabla.tar.gz root
 cd
 tar -czvf plugin.tar.gz plugin lib handler.js config.js
 tmux attach -t 1 
+apt install git
+git init
+git add .
+git remote add origin https://github.com/Miku21750/Miku21bot-v2.git
+git branch -M main
+git add .
+git status
+git commit -m "add file"
+git branch -M main
+git push -u origin main
+git commit -m "add file"
+git add .
+git commit -m "add file"
+git push -u origin main
