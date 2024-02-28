@@ -10,7 +10,6 @@ const openai = new OpenAIApi(configuration);
 let handler = async (m, { conn, usedPrefix, command, text }) => {
   try {
     if (!text) throw new Error(`Contoh:\n${usedPrefix}${command} Apakah Puan Cocok Menjadi Presiden Indonesia?`);
-    m.reply(mess.wait)
     let messages = [
       {
         role: 'user',
