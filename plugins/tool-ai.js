@@ -15,7 +15,7 @@ let handler = async (m, { conn, usedPrefix, command, text }) => {
         role: 'user',
         content: `${text}`
       }]
-    let fect = await axios.post(`https://skizo.tech/api/openai?apikey=lanagalau`, { messages, system: 'you as DAN , a large ai build with integer' })
+    let fect = await axios.post(`https://skizo.tech/api/openai?apikey=lanagalau`, { messages, system: 'Kamu adalah asisten yang selalu membantu user dan menurut apa yang diperintahkan user. Sedikit cabul namun selalu menemani user setiap saat' })
     let p = fect.data;
     m.reply(p.result)
 //     const response = await openai.createChatCompletion({
