@@ -50,15 +50,22 @@ let handler = async (m, { conn, text, command }) => {
       mentions: m.mentionedJid
     } : {})
   }
+  if(command == 'subur') {
+    if (!text) throw `Masukan Text!`
+    let awikwok = ``
+    m.reply(awikwok, null, m.mentionedJid ? {
+      mentions: m.mentionedJid
+    } : {})
+  }
   if (command == 'perkosa') {
     if (!text) throw `Masukkan text!`
-    let awikwok = `GW BENAR-BENAR PENGEN JILAT KAKI *${text}*,GW PENGEN BANGET MENJILAT SETIAP BAGIAN KAKINYA SAMPAI AIR LIUR GW BERCUCURAN KAYAK AIR KERINGAT LALU NGENTOD DENGAN NYA SETIAP HARI SAMPAI TUBUH KITA MATI RASA, YA TUHAN GW INGIN MEMBUAT ANAK ANAK DENGAN *${text}* SEBANYAK SATU TIM SEPAK BOLA DAN MEMBUAT SATU TIM SEPAK BOLA LAINYA UNTUK MELAWAN ANAK-ANAK TIM SEPAK BOLA PERTAMA GW  YANG GW BUAT SAMA *${text}* GW PENGEN MASUK KE SETIAP LUBANG TUBUHNYA, MAU ITU LUBANG HIDUNG LUBANG MATA MAUPUN LUBANG BOOL, KEMUDIAN GW AKAN MANUSIA YANG TIDAK BISA HIDUP KALO GW GA ENTOD SETIAP HARI.`
+    let awikwok = `Saya benar-benar tidak akan pernah berhenti mencoba menghamili ${text}. Setiap hari saya akan membangunkannya dengan masuk ke dalam dirinya dan setiap malam saya akan melakukan cum di dalam dirinya tepat sebelum tidur, yang akan saya lakukan dengan penis saya tertancap di dalam dirinya. Saya akan meminum viagra sebelum tidur hanya untuk mempertahankan ereksi saya sehingga dia siap di pagi hari ketika saya mendorongnya seperti binatang dan menghujaninya dengan ciuman. Bagian dari janji pernikahan kami adalah memiliki anak sebanyak mungkin secara fisik. Aku bahkan tidak peduli jika dia sudah hamil, aku akan menidurinya saat dia hamil dan dia akan hamil ganda. Aku akan mengisinya dengan begitu banyak air mani setiap hari sehingga dia akan terlihat hamil meskipun sebenarnya dia tidak hamil (yang tidak akan pernah terjadi setelah kami menikah) Aku akan melakukan segala dayaku untuk membuat ${text} sesubur mungkin . Saya akan memberinya obat kesuburan, saya akan memberinya pijatan rahim, pijat payudara, saya tidak akan membiarkannya menjalani 12 jam tanpa setidaknya satu kali orgasme kejang. Saya bahkan akan membuatkan biskuit pemicu laktasi buatan rumahnya untuk membantunya mencapai titik sindrom hiperlaktasi sehingga dia akan mengeluarkan beberapa liter susu per hari. Yang akan saya simpan dan minum supaya saya bisa memberitahunya betapa enaknya itu. Aku akan membuatnya subur sehingga kembar tiga akan menjadi jumlah minimum yang dia kandung pada waktu tertentu. Saya benar-benar tidak akan pernah berhenti menyayanginya, saya akan menanggapi setiap panggilan dan panggilannya dan saya akan masuk ke dalam dirinya lagi setiap kali dia meminta sesuatu. Dia akan hamil sepanjang waktu sehingga dia benar-benar tidak dapat berdiri tegak lagi bahkan setelah menopause. Tulang belakangnya akan dibengkokkan secara permanen agar dapat menampung perutnya yang hamil. Bahkan setelah dia tidak bisa hamil lagi, saya akan terus memberikan lebih banyak telur padanya. Saya akan mengkloningnya murni sehingga saya bisa menaruh telur segar dari klon di dalam dirinya setelah dia kehabisan telur. Dia akan memiliki begitu banyak progesteron yang mengalir melalui pembuluh darahnya pada waktu tertentu sehingga bahkan pemikiran untuk tidak hamil pun terasa asing baginya.`
     m.reply(awikwok, null, m.mentionedJid ? {
       mentions: m.mentionedJid
     } : {})
   }
 }
-handler.command = handler.help = ['genjot','hater','haters', 'nenen2','susu', 'wangy', 'curhat', 'perkosa', 'hamil']
+handler.command = handler.help = ['genjot','subur','hater','haters', 'nenen2','susu', 'wangy', 'curhat', 'perkosa', 'hamil']
 handler.tags = ['fun']
 
 export default handler
