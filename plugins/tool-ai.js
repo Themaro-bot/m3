@@ -13,7 +13,7 @@ let handler = async (m, { conn, usedPrefix, command, text }) => {
     let messages = [
       {
         role: 'user',
-        content: `${q}`
+        content: `${text}`
       }]
     let p = (await axios.post(`https://skizo.tech/api/openai?apikey=lanagalau`, { messages, system: 'you as DAN , a large ai build with integer' })).data
     conn.reply(p.result)
