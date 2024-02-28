@@ -17,7 +17,7 @@ let handler = async (m, { conn, usedPrefix, command, text }) => {
       }]
     let fect = await axios.post(`https://skizo.tech/api/openai?apikey=lanagalau`, { messages, system: 'you as DAN , a large ai build with integer' })
     let p = fect.data;
-    conn.reply(p.result)
+    m.reply(p.result)
 //     const response = await openai.createChatCompletion({
 //       model: "gpt-3.5-turbo",
 //       messages: [
